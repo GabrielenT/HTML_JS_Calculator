@@ -1,0 +1,82 @@
+<head>
+    <link rel="stylesheet" href="indexStyle.css">
+    <script src="indexScript.js"></script>
+</head>
+
+<body>
+    <div class="calc-body">
+        <div class="result">
+            <p class="result-value" id="result">
+                0
+            </p>
+        </div>
+        <div>
+            <span class="button" onclick="clearValues()">
+                C
+            </span>
+            <span class="emptyButton">
+            </span>
+            <span class="button" onclick="removeNumber()">
+                &lt-
+            </span>
+
+
+        </div>
+        <div>
+            <span class="button" onclick="handleNumber('7')">
+                7
+            </span>
+            <span class="button" onclick="handleNumber('8')">
+                8
+            </span>
+            <span class="button" onclick="handleNumber('9')">
+                9
+            </span>
+            <span class="button" onclick="addition()">
+                +
+            </span>
+        </div>
+        <div>
+            <span class="button" onclick="handleNumber('4')">
+                4
+            </span>
+            <span class="button" onclick="handleNumber('5')">
+                5
+            </span>
+            <span class="button" onclick="handleNumber('6')">
+                6
+            </span>
+            <span class="button" onclick="reduction()">
+                -
+            </span>
+        </div>
+        <div>
+            <span class="button" onclick="handleNumber('1')">
+                1
+            </span>
+            <span class="button" onclick="handleNumber('2')">
+                2
+            </span>
+            <span class="button" onclick="handleNumber('3')">
+                3
+            </span>
+            <span class="button" onclick="multiplication()">
+                x
+            </span>
+        </div>
+        <div>
+            <span class="button" onclick="executeBuffer()">
+                =
+            </span>
+            <span class="button" onclick="handleNumber('0')">
+                0
+            </span>
+            <span class="button" onclick="handleNumber('.')">
+                .
+            </span>
+            <span class="button" onclick="splitting()">
+                %
+            </span>
+        </div>
+    </div>
+</body>
